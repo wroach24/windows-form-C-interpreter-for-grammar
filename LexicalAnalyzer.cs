@@ -2,15 +2,19 @@
 using System.Text;
 using Systems.Collections.Generic;
 
-public class LexicalAnalyzer
+namespace WinFormsApp1
 {
-	public LexicalAnalyzer()
+	public class LexicalAnalyzer
 	{
+		public LexicalAnalyzer()
+		{
 
+		}
+		public LexicalAnalyzer(string path)
+		{
+			LinkedList<string> lexemes;
+
+		}
 	}
-	public LexicalAnalyzer(string path)
-    {
-		LinkedList<string> lexemes;
-		
-    }
 }
+
